@@ -40,14 +40,14 @@
 
   header nav{
     background-color: rgba(0, 0, 0, .7);
-    width: 100%;
+    margin-top: 0px;
     height: 80px;
+    position: sticky;
+    z-index: 1;
+    display: flex;
+     align-items: center;
   }
-  header nav ul{
-    width:50% ;
-    float: right;
-    height: 100%;
-  }
+  
   header nav ul li{
     display: inline-block;
     margin:0 10px 0 10px;
@@ -59,9 +59,7 @@
     font-size: 20px;
   }
   header nav .logo{
-    width:50% ;
-    height: 100%;
-    float: right;
+    
     text-align: left;
   }
   header nav .logo img{
@@ -92,7 +90,7 @@
   #our-story .story-desc{
     
     width: 50%;
-    float: right;
+    display: inline-block; 
     text-align: center;
   }
   #our-story .story-desc h1{
@@ -107,9 +105,11 @@
     margin: auto;
   }
   #our-story .story-img{
-    
+    display: block;
+    margin-right: auto;
+    margin-top: -137px;
     width: 50%;
-    float: right;
+    
   }
   #our-story .story-img img{
     width: 54%;
@@ -148,7 +148,7 @@
   #menu .menu-desc
   {
     width: 50%;
-    float: right;
+    display: inline-block;
     text-align: center;
   }
   #menu .menu-desc h1{
@@ -169,8 +169,10 @@
     border-bottom: 2px solid #b61111;
   }
   #menu .menu-img{
+    display: block;
+    margin-right: auto;
+    margin-top: -402px;
     width: 50%;
-    float: right;
   }
   #menu .menu-img ul{
     width: 100%;
